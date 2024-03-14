@@ -31,6 +31,8 @@
 }}
 
 @media (max-width: 921px) {
+  .p-events{
+  }
   .name-drop{
     font-size: 60px;
 
@@ -462,7 +464,6 @@ box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
 .about {
   display: flex;
   flex-direction: row;
-  height: 70vh; /* add a fixed height */
 }
 
 .box-1,

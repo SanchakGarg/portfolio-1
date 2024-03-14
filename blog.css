@@ -26,6 +26,7 @@
 
 @media (max-width: 921px) {
   #blogfont {
+    padding:10vw;
     font-size: 18px;
   }
   
@@ -86,7 +87,10 @@
 
 .Head {
   height: 100vh;
-  background-color: black;
+  height: 100vh;
+  background-image: url("assets/coverblog.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 
 }
 

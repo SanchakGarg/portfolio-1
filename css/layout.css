@@ -32,11 +32,10 @@
     flex-direction: column;
   }
   .copyright {
-    padding-top: 40vh;
+    padding-top: 3vh;
   }
   .footsection div{padding-top: 20px;}
   .f {
-    height: 75vh;
   }
   
 }
@@ -147,6 +146,8 @@ a {
 
 /* ##################### SIDE-NAV ####################################### */
 #side-nav-header {
+  z-index: 10;
+  position: relative;
   display: flex;
   justify-content: flex-start;
   align-items: center;

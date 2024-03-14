@@ -51,11 +51,10 @@
     flex-direction: column;
   }
   .copyright {
-    padding-top: 38vh;
+    padding-top: 3vh;
   }
   .footsection div{padding-top: 20px;}
   .f {
-    height: 76vh;
   }
   
 }
@@ -190,7 +189,7 @@ a {
   justify-content: flex-start;
   align-items: center;
   padding: 20px;
-  z-index: 2;
+  z-index: 10;
 }
 
 .side-nav > .nav-list {

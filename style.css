@@ -32,7 +32,7 @@
 
 @media (max-width: 921px) {
   .name-drop{
-    font-size: 80px;
+    font-size: 60px;
 
   }
   .row div{
@@ -55,7 +55,7 @@
   }
   .footsection div{padding-top: 20px;}
   .f {
-    height: 73vh;
+    height: 76vh;
   }
   
 }

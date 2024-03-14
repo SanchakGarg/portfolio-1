@@ -3,6 +3,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Oswald:wght@400;500&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&family=Montserrat:ital,wght@1,600&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 @media (min-width: 922px) {
+  .awf{
+    width: 40vw;
+  }
+  .aboutfont{
+    font-size: 25px;
+  }
   .footsection{
     height: 25vh;
     flex-direction: row;
@@ -17,6 +23,12 @@
 }
 
 @media (max-width: 921px) {
+  .awf{
+    width: 90vw;
+  }
+  .aboutfont{
+    font-size: 20px;
+  }
   .footsection{
     height: 90vh;
     flex-direction: column;
@@ -256,9 +268,8 @@ a {
   color: var(--HOVER-EFFECT);
 }
 
-#aboutfont {
+.aboutfont {
   
-  font-size: 25px;
 }
 
 /* ##################### aboutS ####################################### */

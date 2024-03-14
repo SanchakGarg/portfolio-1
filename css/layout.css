@@ -6,6 +6,40 @@
   font-family: "Karla", sans-serif;
 }
 
+
+@media (min-width: 922px) {
+  .layout{
+    flex-direction: row;
+
+  }
+  .footsection{
+    height: 25vh;
+    flex-direction: row;
+  }
+  .copyright {
+    padding-top: 3vh;
+  
+}}
+
+@media (max-width: 921px) {
+  .layout{
+    padding-right: 10vw;
+    flex-direction: column;
+
+  }
+  .footsection{
+    height: 90vh;
+    flex-direction: column;
+  }
+  .copyright {
+    padding-top: 40vh;
+  }
+  .footsection div{padding-top: 20px;}
+  .f {
+    height: 75vh;
+  }
+  
+}
 /* Track */
 ::-webkit-scrollbar-track {
   box-shadow: inset 0 0 5px grey; 
@@ -232,9 +266,7 @@ a {
 }
 .footsection {
   display: flex;
-  flex-direction: row;
   justify-content: flex-start;
-  height: 25vh;
 }
 
 footer {
@@ -273,7 +305,6 @@ footer {
   min-height: 53.2vh;
   background-color: white;
   display: flex;
-  flex-direction: row;
   padding-bottom: 10vh;
 }
 .body {

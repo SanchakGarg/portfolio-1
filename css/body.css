@@ -5,11 +5,7 @@
 }
 
 @media (min-width: 922px) {
-  .p-events .row div img{
-    width: 22vw;
-    height: 12vw;
-    border-radius: 20px;
-}
+
     .body{
       flex-direction: row;
     }
@@ -21,11 +17,7 @@
   }
 
 @media (max-width: 921px) {
-  .p-events .row div img{
-    width: 80vw;
-    height: 40vw;
-    border-radius: 20px;
-}
+  
   .body{
     flex-direction: column;
   }
@@ -331,13 +323,6 @@ ul.timeline > li:before {
 .p-events .row {
     width: 70vw;
     display: flex;
-}
-.p-events .row div {
-    display: flex;
-    align-items: center;
-    flex: 1;
-    display: flex;
-    flex-direction: column;
 }
 
 

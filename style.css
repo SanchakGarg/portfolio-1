@@ -9,6 +9,13 @@
 }
 
 @media (min-width: 922px) {
+  .card{
+    width: 22vw;
+  height: 40vh;
+  }
+  main {
+    height: 42vh;
+  }
   .name-drop{
     font-size: 100px;
 
@@ -31,6 +38,14 @@
 }}
 
 @media (max-width: 921px) {
+  .card{
+    margin-top: 5vw;
+    width: 90vw;
+  height: 70vh;
+  }
+  main {
+    height: 70vh;
+  }
   .p-events{
   }
   .name-drop{
@@ -38,7 +53,7 @@
 
   }
   .row div{
-    padding-top: 30px;
+  
   }
   .grid {
     grid-template-columns:auto;
@@ -535,45 +550,12 @@ a {
   width: max-content;
 }
 
-.card {
-  font-family: 'Rubik',sans-serif;
-  --bg-filter-opacity: 0.5;
-  background-image: linear-gradient(rgba(0,0,0,var(--bg-filter-opacity)),rgba(0,0,0,var(--bg-filter-opacity))), var(--bg-img);
-  height: 20em;
-  width: 15em;
-  font-size: 1.5em;
-  color: white;
-  border-radius: 1em;
-  padding: 1em;
-  /*margin: 2em;*/
-  display: flex;
-  align-items: flex-end;
-  background-size: cover;
-  background-position: center;
-  box-shadow: 0 0 5em -1em black;
-  transition: all, var(--transition-time);
-  position: relative;
-  overflow: hidden;
-  border: 10px solid #ccc;
-  text-decoration: none;
-}
 
 .card:hover {
   transform: rotate(0);
 }
 
-.card h1 {
-  margin: 0;
-  font-size: 1.5em;
-  line-height: 1.2em;
-}
 
-.card p {
-  font-size: 0.75em;
-  font-family: 'Open Sans';
-  margin-top: 0.5em;
-  line-height: 2em;
-}
 
 .card .tags {
   display: flex;
@@ -715,4 +697,119 @@ a {
 }
 .grid img{
   margin-bottom: 50px;
+}
+
+
+
+
+
+
+
+
+.card{
+  margin: 10px;
+  width: 25rem;
+  height: auto;
+  background: #fff;
+  border-radius: 1.5rem;
+  padding: 1.5rem;
+  overflow: hidden;
+  position: relative;
+}
+
+.card-img-holder{
+  width: 100%;
+  height: auto;
+  position: relative;
+}
+
+.card-img-holder img{
+  width: 100%;
+  height: auto;
+  max-height: 15rem;
+  object-fit: cover;
+  border-radius: 1.5rem;
+}
+
+.blog-title{
+  color: #22215B;
+  padding: 1rem 0;
+  font-size: 1.5rem;
+}
+
+.description{
+  padding: 1rem 0;
+  color: #22215B80;
+  font-size: 1rem;
+}
+
+.blog-time{
+  font-size: .8rem;
+  color: #22215B;
+}
+
+.options{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 1rem;
+}
+
+.options span{
+  font-weight: 600;
+  color: #22215B;
+}
+
+.btn{
+  font-size: 1rem;
+  padding: .5rem 1rem;
+  border-radius: .5rem;
+  font-weight: 400;
+  background: #EEF7FE;
+  color: #22215B;
+  cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+.image-grid div {
+
+  width: 25%;
+  height: 240px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.image-grid {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.image01 { background-image: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/409269/food-drink-01.jpg'); }
+.image02 { background-image: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/409269/food-drink-02.jpg'); }
+.image03 { background-image: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/409269/food-drink-03.jpg'); }
+.image04 { background-image: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/409269/food-drink-04.jpg'); }
+.image05 { background-image: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/409269/food-drink-05.jpg'); }
+.image06 { background-image: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/409269/food-drink-06.jpg'); }
+.image07 { background-image: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/409269/food-drink-07.jpg'); }
+.image08 { background-image: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/409269/food-drink-08.jpg'); }
+.image09 { background-image: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/409269/food-drink-09.jpg'); }
+.image10 { background-image: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/409269/food-drink-10.jpg'); }
+.image11 { background-image: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/409269/food-drink-11.jpg'); }
+.image12 { background-image: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/409269/food-drink-12.jpg'); }
+
+@media screen and (max-width: 400px) {
+  .image-grid {
+    flex-direction: column;
+    flex-wrap: no-wrap;
+  }
+  .image-grid div { width: 100%; }
 }

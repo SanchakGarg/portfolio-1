@@ -1,4 +1,4 @@
-/* ########################## GENERAL ########################## */
+  /* ########################## GENERAL ########################## */
 @import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Oswald:wght@400;500&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&family=Montserrat:ital,wght@1,600&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
@@ -100,7 +100,7 @@
 
 .Head {
   height: 100vh;
-  background-image: url("assets/blog-placeholder-1.jpeg");
+  background-image: url("assets/team.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -383,13 +383,13 @@ footer {
 
 .profile {
   max-width: 300px;
-  margin: 0 auto;
   background-color: #ffffff;
   padding: 30px;
   border-radius: 10px;
   position: relative;
   
   h2 {
+    padding-right: 100px;
     color: #0a0a0a;
   }
   

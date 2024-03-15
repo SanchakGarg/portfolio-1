@@ -1,5 +1,5 @@
 // Fetch data from the API with role parameter set to 'president'
-fetch("http://wics-website-backend.vercel.app/api/members/?role=President")
+fetch("https://wics-website-backend.vercel.app/api/members/?role=President")
   .then((response) => response.json())
   .then((data) => {
     const presidentsContainer = document.getElementById("presidentsContainer");
@@ -39,7 +39,7 @@ fetch("http://wics-website-backend.vercel.app/api/members/?role=President")
   });
 
 // Fetch data from the API with role parameter set to 'president'
-fetch("http://wics-website-backend.vercel.app/api/members/?limit=100&role=Member")
+fetch("https://wics-website-backend.vercel.app/api/members/?limit=100&role=Member")
   .then((response) => response.json())
   .then((data) => {
     const presidentsContainer = document.getElementById("membersContainer");
